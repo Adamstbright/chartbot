@@ -1,8 +1,6 @@
-from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QMainWindow, QTextEdit, QApplication, QLineEdit, QPushButton
 
 import sys
-import mysql.connector
 
 
 class ChatbotWindow(QMainWindow):
@@ -25,10 +23,6 @@ class ChatbotWindow(QMainWindow):
         self.button.setGeometry(500, 340, 100, 40)
 
         self.show()
-
-
-class Chatbot:
-    pass
 
 
 app = QApplication(sys.argv)
